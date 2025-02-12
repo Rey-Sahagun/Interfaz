@@ -1,0 +1,183 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el body ocupe al menos el 100% de la altura de la ventana */
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #020202;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #8f1919 !important;
+  }
+  
+  .nav-link {
+    font-size: 1.1rem;
+    margin-left: 15px;
+    color: #da0a0a !important;
+  }
+  
+  .nav-link:hover {
+    color: #007bff !important;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background-color: #0c0c0c;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1.5rem;
+    color: #666;
+  }
+  
+  /* Services Section */
+  .services-section {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .services-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .services-section h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .services-section p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1; /* Hace que el contenido ocupe el espacio restante */
+    margin-top: 20px; /* Espacio entre el Navbar y el contenido */
+    margin-bottom: 20px; /* Espacio entre el contenido y el Footer */
+  }
+  
+  /* Estilos para el formulario */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .mb-3 {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  button.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para la tabla de productos */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  table th,
+  table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  table td {
+    color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ffffff;
+    color: rgb(24, 23, 23);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto; /* Empuja el footer al final de la página */
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
