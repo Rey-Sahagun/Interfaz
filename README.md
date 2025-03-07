@@ -1,0 +1,4 @@
+EQUIPO: 
+SAHAGUN GONZALEZ ALDO REYMUNDO - 20400820
+Frias Bogarin Rodolfo - 20400737
+Cabral Machuca Alejandro Aaron - 20400706
