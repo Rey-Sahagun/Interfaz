@@ -13,7 +13,7 @@ const Libros = () => {
             autor: "Eckhart Tolle",
             descripcion: "Una guía para el despertar espiritual y vivir en el momento presente.",
             categoria: "Desarrollo Personal",
-            imagen: "https://m.media-amazon.com/images/I/41PBJ0GQHQL._SY425_.jpg",
+            imagen: "https://oceano.mx/img/obra/media/8607.jpg",
             rating: 4.5
         },
         {
@@ -22,7 +22,7 @@ const Libros = () => {
             autor: "Daniel Goleman",
             descripcion: "Explora por qué el coeficiente emocional puede ser más importante que el IQ.",
             categoria: "Psicología",
-            imagen: "https://m.media-amazon.com/images/I/51Hfv2MfNGL._SY425_.jpg",
+            imagen: "https://m.media-amazon.com/images/I/411bIc+eOEL._SY445_SX342_.jpg ",
             rating: 4.7
         },
         {
@@ -31,7 +31,7 @@ const Libros = () => {
             autor: "Stephen R. Covey",
             descripcion: "Principios atemporales para el éxito personal y profesional.",
             categoria: "Desarrollo Personal",
-            imagen: "https://m.media-amazon.com/images/I/51zPWUu8puL._SY425_.jpg",
+            imagen: "https://m.media-amazon.com/images/I/51JQDV3YDEL._SY425_.jpg",
             rating: 4.6
         },
         {
@@ -40,7 +40,7 @@ const Libros = () => {
             autor: "Carol S. Dweck",
             descripcion: "Cómo nuestra mentalidad afecta nuestro potencial de crecimiento.",
             categoria: "Psicología",
-            imagen: "https://m.media-amazon.com/images/I/51XwG0z0UJL._SY425_.jpg",
+            imagen: "https://m.media-amazon.com/images/I/419nwdB9h+L._SY445_SX342_.jpg",
             rating: 4.4
         },
         {
@@ -49,7 +49,7 @@ const Libros = () => {
             autor: "Viktor E. Frankl",
             descripcion: "Un relato conmovedor y profundo sobre la supervivencia y el sentido de la vida.",
             categoria: "Psicología Existencial",
-            imagen: "https://m.media-amazon.com/images/I/41J9-bfJ2JL._SY425_.jpg",
+            imagen: "https://m.media-amazon.com/images/I/61By+AvZOVL._SY425_.jpg",
             rating: 4.8
         },
         {
@@ -58,7 +58,7 @@ const Libros = () => {
             autor: "James Clear",
             descripcion: "Pequeños cambios, resultados extraordinarios: un método fácil para crear buenos hábitos.",
             categoria: "Desarrollo Personal",
-            imagen: "https://m.media-amazon.com/images/I/51S7KbghfQL._SY425_.jpg",
+            imagen: "https://m.media-amazon.com/images/I/51C8AbIsLTL._SX342_SY445_.jpg",
             rating: 4.7
         },
         {
@@ -67,7 +67,7 @@ const Libros = () => {
             autor: "Mihaly Csikszentmihalyi",
             descripcion: "La psicología de la experiencia óptima y cómo alcanzar un estado de flujo.",
             categoria: "Psicología Positiva",
-            imagen: "https://m.media-amazon.com/images/I/41SNoh5VwEL._SY425_.jpg",
+            imagen: "https://m.media-amazon.com/images/I/311J7EUFaTL._SY445_SX342_.jpg",
             rating: 4.5
         },
         {
@@ -76,7 +76,7 @@ const Libros = () => {
             autor: "Erich Fromm",
             descripcion: "Un análisis profundo sobre el amor como arte que requiere conocimiento y esfuerzo.",
             categoria: "Psicología Social",
-            imagen: "https://m.media-amazon.com/images/I/41+OjVJI3BL._SY425_.jpg",
+            imagen: "https://m.media-amazon.com/images/I/51O1ezdBmCL._SY445_SX342_.jpg",
             rating: 4.3
         }
     ];

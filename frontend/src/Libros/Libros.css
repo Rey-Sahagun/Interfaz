@@ -1,0 +1,90 @@
+.libro-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero-section {
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.libro-contenido {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 30px; /* Espacio entre la imagen y el contenido */
+}
+
+.libro-imagen-container {
+    flex-basis: 40%; /* Establece que la imagen ocupe el 40% del contenedor */
+    max-width: 100%; /* Asegura que no se exceda el contenedor */
+    height: auto;
+}
+
+.libro-imagen {
+    width: 100%;
+    height: auto; /* Esto asegura que la imagen no se deforme */
+    max-height: 400mpx; /* Limita la altura de la imagen, ajusta si es necesario */
+    object-fit: cover; /* La imagen se adapta al espacio sin perder calidad */
+    border-radius: 10px;
+}
+
+.libro-detalles {
+    flex-basis: 55%; /* El texto ocupará el 55% del contenedor */
+}
+
+.libro-detalles h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.libro-detalles h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+.libro-detalles p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.libro-detalles ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+.back-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.comentarios {
+    margin-top: 40px;
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.comentarios h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.comentarios p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+}
