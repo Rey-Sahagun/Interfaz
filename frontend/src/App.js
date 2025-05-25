@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Psicologia from './pages/Psicologia';
 import SaludMental from './pages/SaludMental';
+import Contacto from './pages/Contacto';
 import Libros from './pages/Libros';
 import Libro1 from './Libros/Libro1';  // Importa las páginas de libros individuales
 import Libro2 from './Libros/Libro2';
@@ -26,6 +27,7 @@ function App() {
                 <Route path="/psicologia" element={<Psicologia />} />
                 <Route path="/salud-mental" element={<SaludMental />} />
                 <Route path="/libros" element={<Libros />} />
+                <Route path="/contacto" element={<Contacto />} />
                 {/* Aquí agregamos las rutas para los libros específicos */}
                 <Route path="/libro/1" element={<Libro1 />} />
                 <Route path="/libro/2" element={<Libro2 />} />
