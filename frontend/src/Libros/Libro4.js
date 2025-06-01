@@ -1,7 +1,7 @@
 import React from 'react';
 import './Libros.css';
 
-const Libro5 = () => {
+const Libro4 = () => {
     return (
         <div className="libro-container">
             <div className="libro-contenido">
@@ -42,4 +42,4 @@ const Libro5 = () => {
     );
 };
 
-export default Libro5;
+export default Libro4;

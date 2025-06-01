@@ -2,7 +2,7 @@ import React from 'react';
 import './Libros.css'; // Asegúrate de tener este archivo CSS correctamente configurado
 import { Link } from 'react-router-dom';
 
-const Libro3 = () => {
+const Libro1 = () => {
     return (
         <div className="libro-container">
             {/* Sección Hero */}
@@ -85,4 +85,4 @@ const Libro3 = () => {
     );
 };
 
-export default Libro3;
+export default Libro1;
